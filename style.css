@@ -1,13 +1,41 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt&display=swap');
 
 body, html {
   height: 100%
 }
 
+#navbar {
+
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
 /*The banner image*/
 .banner-img {
-  /*Using a linear gradient to darken background*/
+
   background-image:  url("mountains2.jpg");
 
   height: 100%;
@@ -26,20 +54,12 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: 'Rokkitt', serif;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
 
 h1 {
   color: #483d8b;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rokkitt', serif;
   font-weight: lighter;
 }
