@@ -58,6 +58,19 @@ body, html {
   font-family: 'Rokkitt', serif;
 }
 
+.music-img{
+  background-image:  url("music.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
 
 h1 {
   color: #483d8b;
