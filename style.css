@@ -70,10 +70,29 @@ body, html {
 
 }
 
+.resume-sidebar {
+  float:left;
+  padding-top: 10%;
+}
+
+.resume-body {
+  float: left;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+
 
 
 h1 {
   color: #483d8b;
   font-family: 'Rokkitt', serif;
   font-weight: lighter;
+}
+
+h2 {
+  color: #1C6B78;
+  font-family: 'Rokkitt', serif;
+  font-weight: lighter;
+
 }
