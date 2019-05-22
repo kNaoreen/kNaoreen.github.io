@@ -77,8 +77,8 @@ body, html {
 
 .resume-body {
   float: left;
-
   padding-left: 15%;
+  padding-right: 15%;
 }
 
 .resume-body li{
