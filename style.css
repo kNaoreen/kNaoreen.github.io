@@ -77,8 +77,8 @@ body, html {
 
 .resume-body {
   float: left;
-  padding-top: 10%;
-  padding-left: 5%;
+
+  padding-left: 15%;
 }
 
 .resume-body li{
@@ -94,7 +94,6 @@ body, html {
   color: maroon;
   font-size: 17px;
 }
-
 
 
 
