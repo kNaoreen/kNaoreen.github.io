@@ -58,6 +58,10 @@ body, html {
   font-family: 'Rokkitt', serif;
 }
 
+.index-computer img{
+  width: 30%;
+}
+
 .music-img{
   background-image:  url("music.jpg");
 
