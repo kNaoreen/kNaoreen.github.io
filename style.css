@@ -58,9 +58,31 @@ body, html {
   font-family: 'Rokkitt', serif;
 }
 
-.index-computer img{
-  width: 30%;
+#comp-wrapper {
+  overflow: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  height:auto;
+  padding-top: 10%;
 }
+
+#comp-img {
+  float: left;
+  width: 40%;
+
+}
+
+#comp-img img{
+  width: 70%
+}
+
+#comp-txt{
+  float:left;
+  width:60%;
+  padding-top: 5%;
+
+}
+
 
 .music-img{
   background-image:  url("music.jpg");
@@ -110,6 +132,13 @@ h1 {
 h2 {
   color: #1C6B78;
   font-family: 'Rokkitt', serif;
+  font-weight: lighter;
+}
+
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
 
 }
