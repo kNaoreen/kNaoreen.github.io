@@ -58,7 +58,7 @@ body, html {
   font-family: 'Rokkitt', serif;
 }
 
-#comp-wrapper {
+.home-wrapper {
   overflow: auto;
   padding-left: 10%;
   padding-right: 10%;
@@ -66,17 +66,17 @@ body, html {
   padding-top: 10%;
 }
 
-#comp-img {
+.home-img {
   float: left;
   width: 40%;
 
 }
 
-#comp-img img{
+.home-img img{
   width: 70%
 }
 
-#comp-txt{
+.home-txt{
   float:left;
   width:60%;
   padding-top: 5%;
