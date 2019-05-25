@@ -59,7 +59,8 @@ body, html {
 }
 
 .home-wrapper {
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x:visible;
   padding-left: 10%;
   padding-right: 10%;
   height:auto;
