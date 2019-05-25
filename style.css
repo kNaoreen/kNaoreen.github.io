@@ -64,7 +64,7 @@ body, html {
 
 .home-wrapper {
   overflow-y: hidden;
-  overflow-x: visible;
+  overflow-x: hidden;
   padding-left: 10%;
   padding-right: 10%;
   height:auto;
