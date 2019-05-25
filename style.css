@@ -25,6 +25,10 @@ body, html {
   font-family: 'Rokkitt', sans-serif;
 }
 
+#navbar a:hover{
+  color: #addad6;
+}
+
 .sticky {
   position: fixed;
   top: 0;
