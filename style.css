@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lekton&display=swap');
 
 body, html {
   height: 100%;
@@ -22,7 +26,7 @@ body, html {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-family: 'Rokkitt', sans-serif;
+  font-family: 'Lekton', sans-serif;
 }
 
 #navbar a:hover{
@@ -65,7 +69,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Lekton', sans-serif;
 }
 
 .home-wrapper {
@@ -120,14 +124,14 @@ body, html {
 }
 
 .resume-body li{
-  font-family: 'Montserrat', serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: lighter;
   font-size: 14.5px;
   padding-bottom: 1%;
 }
 
 .resume-body h3{
-  font-family: 'Montserrat', serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: bolder;
   color: maroon;
   font-size: 17px;
@@ -137,20 +141,20 @@ body, html {
 
 h1 {
   color: #483d8b;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Lekton', sans-serif;
   font-weight: lighter;
 }
 
 h2 {
   color: #1C6B78;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Lekton', sans-serif;
   font-weight: lighter;
 }
 
 
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: lighter;
 
 }
