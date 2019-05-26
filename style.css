@@ -112,6 +112,19 @@ body, html {
 
 }
 
+.blue-bg {
+  background-color: #bdd7d9;
+  height: 100%;
+  width:100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin:0;
+
+}
+
 .resume-sidebar {
   float:left;
   padding-top: 10%;
