@@ -72,6 +72,10 @@ body, html {
   font-family: 'Lekton', sans-serif;
 }
 
+.banner-text p{
+  color: white;
+}
+
 .home-wrapper {
   overflow-y: hidden;
   overflow-x: hidden;
@@ -125,6 +129,8 @@ body, html {
 
 }
 
+
+
 .resume-sidebar {
   float:left;
   padding-top: 10%;
@@ -141,6 +147,7 @@ body, html {
   font-weight: lighter;
   font-size: 14.5px;
   padding-bottom: 1%;
+  color: #514638;
 }
 
 .resume-body h3{
@@ -159,7 +166,7 @@ h1 {
 }
 
 h2 {
-  color: #1C6B78;
+  color: #95c0c3;
   font-family: 'Lekton', sans-serif;
   font-weight: lighter;
 }
@@ -169,5 +176,6 @@ h2 {
 p {
   font-family: 'Inconsolata', monospace;
   font-weight: lighter;
+  color:#514638;
 
 }
