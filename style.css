@@ -155,28 +155,33 @@ body, html {
   font-size: 17px;
 }
 
-#cmd-f-container{
+.resumer-container{
   width: 100%;
 }
 
-#cmd-f-txt{
+.resume-txt{
   width: 40%;
   float: left;
   background-color:#95c0c3;
   padding: 5%;
 }
 
-#cmd-f-box{
+.resume-imgbox{
   float: right;
   overflow: hidden;
-  background-image: url("cmd_f_2.jpg");
-  background-repeat: no-repeat;
-  background-size: 50%, 100%;
+  width:50%;
+}
+
+.resume-imgbox img{
+  width:inherit;
+
 }
 
 
 
-#clear {
+
+
+.clear {
     clear: both;
 }
 
