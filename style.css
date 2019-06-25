@@ -173,6 +173,12 @@ body, html {
   object-fit:contain;
 }
 
+.resume-imgbox p{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 11px;
+}
+
 .resume-imgbox img{
   width:100%;
 
