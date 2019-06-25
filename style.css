@@ -167,13 +167,16 @@ body, html {
 }
 
 .resume-imgbox{
-  float: right;
+  float: left;
   overflow: hidden;
   width:50%;
+  object-fit:contain;
 }
 
 .resume-imgbox img{
-  width:inherit;
+  width:100%;
+
+
 
 }
 
