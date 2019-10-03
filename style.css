@@ -186,14 +186,9 @@ body, html {
 
 }
 
-
-
-
-
 .clear {
     clear: both;
 }
-
 
 h1 {
   color: #483d8b;
@@ -207,11 +202,8 @@ h2 {
   font-weight: lighter;
 }
 
-
-
 p {
   font-family: 'Inconsolata', monospace;
   font-weight: lighter;
   color:#514638;
-
 }
