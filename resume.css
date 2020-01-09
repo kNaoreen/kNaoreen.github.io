@@ -9,11 +9,12 @@
     grid-template-rows: fit-content fit-content fit-content fit-content;
     grid-template-areas:
         "card1 card2"
+        "card3 ."
 
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(26, 64, 87, 0.5);
     background-color: white;
     width: 80%;
     height: fit-content;
@@ -25,15 +26,28 @@
     color:#514638;
 }
 
+.cardImageContainer {
+    position: fixed;
+    width: 100%;
+}
+
+.cardImageContainer img {
+    width: inherit;
+    object-fit: contain;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
 #technicalSkillsCard {
     grid-area: card1;
-    
 }
 
 #otherSkillsCard {
     grid-area: card2;
+}
+
+#cmdfCard {
+    grid-area: card3;
 }

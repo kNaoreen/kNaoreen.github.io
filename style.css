@@ -129,63 +129,6 @@ body, html {
 
 }
 
-
-
-.resume-sidebar {
-  float:left;
-  padding-top: 10%;
-}
-
-.resume-body {
-  float: left;
-}
-
-.resume-body li{
-  font-family: 'Inconsolata', monospace;
-  font-weight: lighter;
-  font-size: 14.5px;
-  padding-bottom: 1%;
-  color: #514638;
-}
-
-.resume-body h3{
-  font-family: 'Inconsolata', monospace;
-  font-weight: bolder;
-  color: maroon;
-  font-size: 17px;
-}
-
-.resumer-container{
-  width: 100%;
-}
-
-.resume-txt{
-  width: 40%;
-  float: left;
-  background-color:#95c0c3;
-  padding: 5%;
-}
-
-.resume-imgbox{
-  float: left;
-  overflow: hidden;
-  width:50%;
-  object-fit:contain;
-}
-
-.resume-imgbox p{
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 11px;
-}
-
-.resume-imgbox img{
-  width:100%;
-
-
-
-}
-
 .clear {
     clear: both;
 }
