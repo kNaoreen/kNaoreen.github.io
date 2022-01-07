@@ -4,6 +4,39 @@ html, body {
     background-color: rgb(254, 234, 255);
 }
 
+.dialogueContainer {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+
+    // centres the whole container on the page
+    margin-left: auto;
+    margin-right: auto;
+
+    // prevents the child boxes from touching the page edges if screen is small
+    padding: 10px;
+}
+
+.spriteBox {
+    border: 4px rgb(68, 59, 102) solid;
+    background-color: white;
+    width: fit-content;
+}
+
+.literalDialogueBox {
+    border: 4px rgb(68, 59, 102) solid;
+    background-color: pink;
+
+    // padding for text
+    padding: 15px;
+}
+
+
 .literalDialogueBox h1 {
     font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
 }
