@@ -3,13 +3,22 @@ layout: default
 title: Home
 ---
 
+<script src="assets/js/home.js"></script>
 
 <div class="dialogueContainer">
     <div class="spriteBox">
         <img src="assets/images/naoreenstatic.png">
     </div>
-    <div class="literalDialogueBox">
-        <h1> Hello World! I'm Naoreen. Welcome to my website. I hope you enjoy your stay!</h1>
-        <!-- todo implement this lol <button class="literalDialogueBox--nextButton">Next</button> -->
+    <div class="dialogueBoxAndButtonsContainer">
+        <div class="literalDialogueBox">
+            <h1 id="literalDialogueBox__text"> Hello World! I'm Naoreen.</h1>
+        </div>
+        <button class="literalDialogueBox__nextButton" id="literalDialogueBox__nextButton" onclick="handleNextButton()">Next</button>
+
+        <div class="optionButtons--hidden" id="optionButtons">
+            <button class="literalDialogueBox__nextButton optionButton" value="employer" onclick="handleOptionButton(this.value)">A curious employer</button>
+            <button class="literalDialogueBox__nextButton optionButton" value="fan" onclick="handleOptionButton(this.value)">An adoring fan</button>
+            <button class="literalDialogueBox__nextButton optionButton" value="stranger" onclick="handleOptionButton(this.value)">A mysterious stranger</button>
+        </div>
     </div>
 </div>

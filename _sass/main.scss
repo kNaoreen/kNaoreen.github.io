@@ -5,7 +5,7 @@ html, body {
 }
 
 .dialogueContainer {
-    width: fit-content;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,6 +28,14 @@ html, body {
     height: min-content;
 }
 
+.dialogueBoxAndButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+
+}
+
 .literalDialogueBox {
     border: 4px rgb(68, 59, 102) solid;
     background-color: pink;
@@ -39,6 +47,42 @@ html, body {
 .literalDialogueBox h1 {
     font-family: 'Share Tech Mono', monospace;
     font-size: 25px;
+}
+
+.literalDialogueBox__nextButton {
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #818eda;
+    border: #735aa1 4px solid;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(201, 167, 214);
+
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}
+
+.literalDialogueBox__nextButton:hover {
+    background-color: #735aa1;
+}
+
+.literalDialogueBox__nextButton:hover {
+  background-color: #9075c2;
+  box-shadow: 0 5px rgb(214, 167, 213);
+  transform: translateY(4px);
+}
+
+.optionButtons--hidden {
+    display: none;
+}
+
+.optionButtons--visible {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /** ABOUT PAGE **/
