@@ -4,4 +4,28 @@ title: Projects
 permalink: /projects.html
 ---
 
-<h1> Projects Page</h1>
+<div class="projectCardsContainer">
+    {% for project in site.data.projects %}
+    <div class="projectCard">
+        <div class="projectCard--Header">
+            <h1>{{project.name}}</h1>
+            <p>{{project.subtitle}}</p>
+        </div>
+        <!--<div class="projectCard--ProjectThumbnail">
+            TODO
+        </div>-->
+        <div class="projectCard--Description">
+            <ul>
+                {% for description in project.descriptions %}
+                <li>{{description}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="projetCard--ButtonRow">
+            <!--<button class="projectCard--LearnMoreButton"> TODO
+                Learn More
+            </button>-->
+        </div>
+    </div>
+    {% endfor %}
+</div>

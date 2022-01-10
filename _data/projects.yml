@@ -1,0 +1,28 @@
+- name: The Dollhouse
+  subtitle: CPSC 427 Course Project
+  descriptions:
+    - A story-based top-down RPG. You wake up as a doll in a dollhouse and must find a way to escape.
+    - Won "Best game" and "Best Visuals" from a judging panel of industry professionals
+    - Team of 6
+  tools: 
+    - C++
+    - OpenGL
+    - ECS pattern
+    - SDL
+    - Aseprite
+    - Visual Studio
+  contributions:
+    - I used Asesprite to draw almost all of the pixel art in the game, which gave the game a consistent aesthetic
+    - Aside from game logic, my technical contributions included implementing sprite animation, and writing a vertex shader that distorts sprites when attacks are used
+    - I also composed and produced the two soundtrack pieces
+    - As the only team member with both a Windows and Linux machine, I independently handled the testing and debugging of Linux-related issues in our code
+- name: RateMyProfessors Prototype
+  subtitle: CPSC 344 Course Project
+  descriptions:
+    - A series of design prototypes developed as an improvement to the existing RateMyProfessors website
+    - Team of 5
+  stack: HTML, JavaScript, CSS, Google Slides
+  contributions:
+    - We conducted user observation and interviews, and used qualtitiative and quantitative analysis methods to identify usability issues in the RateMyProfessors website
+    - We addressed one usability issue (the lack of a native comparison feature) by creating two lo-fi prototypes in Google Slides and assessing them via cognitive walkthroughs
+    - We iterated on our design to produce a medium fidelity prototype with HTML, JavaScript, and CSS. We tested the prototype with user observation and questionnaire.

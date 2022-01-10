@@ -1,0 +1,24 @@
+.projectCardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stret
+    ch;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+.projectCard {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: white;
+    border: 4px rgb(68, 59, 102) solid;
+    box-shadow: 0 4px 8px 0 rgba(98, 40, 131, 0.342);
+    transition: 0.3s;
+
+    padding: 30px;
+}
+
+.projectCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(98, 40, 131, 0.342);
+}
