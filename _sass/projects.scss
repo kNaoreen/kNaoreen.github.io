@@ -3,20 +3,46 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stret
-    ch;
+    align-items: stretch;
     align-content: flex-start;
     gap: 30px;
 }
 
 .projectCard {
     font-family: 'Share Tech Mono', monospace;
-    background-color: white;
+    background-color: rgb(223, 209, 240);
     border: 4px rgb(68, 59, 102) solid;
+
+    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(98, 40, 131, 0.342);
     transition: 0.3s;
 
-    padding: 30px;
+    max-width: 400px;
+    height: max-content;
+    padding: 0px 15px 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: space-evenly;
+}
+
+.projectCard--Header {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+.projectCard--ProjectThumbnail img{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+}
+
+.projectCard--LearnMoreButton {
+    float: right;
+    width: max-content;
+    align-self: flex-end;
 }
 
 .projectCard:hover {

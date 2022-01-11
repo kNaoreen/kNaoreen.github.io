@@ -1,5 +1,6 @@
 - name: The Dollhouse
   subtitle: CPSC 427 Course Project
+  thumbnail: assets/images/theDollhouse1.png
   descriptions:
     - A story-based top-down RPG. You wake up as a doll in a dollhouse and must find a way to escape.
     - Won "Best game" and "Best Visuals" from a judging panel of industry professionals
@@ -18,6 +19,7 @@
     - As the only team member with both a Windows and Linux machine, I independently handled the testing and debugging of Linux-related issues in our code
 - name: RateMyProfessors Prototype
   subtitle: CPSC 344 Course Project
+  thumbnail: assets/images/RMP1.png
   descriptions:
     - A series of design prototypes developed as an improvement to the existing RateMyProfessors website
     - Team of 5
@@ -26,3 +28,14 @@
     - We conducted user observation and interviews, and used qualtitiative and quantitative analysis methods to identify usability issues in the RateMyProfessors website
     - We addressed one usability issue (the lack of a native comparison feature) by creating two lo-fi prototypes in Google Slides and assessing them via cognitive walkthroughs
     - We iterated on our design to produce a medium fidelity prototype with HTML, JavaScript, and CSS. We tested the prototype with user observation and questionnaire.
+- name: Tweetbook
+  subtitle: CPSC 304 Course Project
+  thumbnail: assets/images/tweetbook1.png
+  descriptions:
+    - A mock social media application created for a databases course.
+    - Team of 3
+  stack: React, Express, SQL, MySQL
+  contributions:
+    - Wrote SQL scripts to query and modify database
+    - Wrote backend API in Express that front end can call to retrieve the results of different database queries
+    - Wrote front end of application that allows userss to test different database operations
