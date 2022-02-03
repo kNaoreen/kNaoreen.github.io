@@ -19,24 +19,47 @@
 
     max-width: 400px;
     height: max-content;
-    padding: 0px 15px 20px 15px;
-
+    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    flex-flow: space-evenly;
 }
 
 .projectCard--Header {
     h1 {
         font-size: 28px;
     }
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projectCard--toolsList ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: space-evenly;
+    list-style-type: none;
+    align-self: flex-start;
+    padding: 0;
+}
+
+.projectCard--toolsList li {
+    align-self: flex-start;
+}
+
+.toolTag {
+    padding: 5px;
+    margin: 2px;
+    background-color:rgb(68, 59, 102);
+    color:rgb(238, 240, 209);
 }
 
 .projectCard--ProjectThumbnail img{
     max-width: 100%;
     min-width: 100%;
     min-height: 150px;
+    border-top: rgb(68, 59, 102) 4px solid;
+    border-bottom: rgb(68, 59, 102) 4px solid;
 }
 
 .projectCard--LearnMoreButton {

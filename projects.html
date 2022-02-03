@@ -11,6 +11,13 @@ permalink: /projects.html
             <h1>{{project.name}}</h1>
             <p>{{project.subtitle}}</p>
         </div>
+        <div class="projectCard--toolsList">
+            <ul>
+                {% for tool in project.tools %}
+                <li><div class="toolTag">{{tool}}</div></li>
+                {% endfor %}
+            </ul>
+        </div>
         <div class="projectCard--ProjectThumbnail">
             <img src={{project.thumbnail}}>
         </div>
@@ -21,6 +28,13 @@ permalink: /projects.html
                 {% endfor %}
             </ul>
         </div>
+        <!--<div class="projectCard--contributions">
+            <ul>
+                {% for contribution in project.contributions %}
+                <li>{{contribution}}</li>
+                {% endfor %}
+            </ul>
+        </div>-->
         <!--<button class="projectCard--LearnMoreButton literalDialogueBox__nextButton">
             Learn More
         </button>-->

@@ -23,7 +23,11 @@
   descriptions:
     - A series of design prototypes developed as an improvement to the existing RateMyProfessors website
     - Team of 5
-  stack: HTML, JavaScript, CSS, Google Slides
+  tools:
+    - HTML
+    - JavaScript
+    - CSS
+    - Google Slides
   contributions:
     - We conducted user observation and interviews, and used qualtitiative and quantitative analysis methods to identify usability issues in the RateMyProfessors website
     - We addressed one usability issue (the lack of a native comparison feature) by creating two lo-fi prototypes in Google Slides and assessing them via cognitive walkthroughs
@@ -34,7 +38,12 @@
   descriptions:
     - A mock social media application created for a databases course.
     - Team of 3
-  stack: React, Express, SQL, MySQL
+  tools:
+    - React
+    - Express
+    - Node
+    - SQL
+    - MySQL
   contributions:
     - Wrote SQL scripts to query and modify database
     - Wrote backend API in Express that front end can call to retrieve the results of different database queries
