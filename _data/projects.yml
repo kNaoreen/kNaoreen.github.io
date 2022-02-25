@@ -19,7 +19,7 @@
     - As the only team member with both a Windows and Linux machine, I independently handled the testing and debugging of Linux-related issues in our code
 - name: RateMyProfessors Prototype
   subtitle: CPSC 344 Course Project
-  thumbnail: assets/images/RMP1.png
+  thumbnail: assets/images/ratemyprof1.png
   descriptions:
     - A series of design prototypes developed as an improvement to the existing RateMyProfessors website
     - Team of 5
