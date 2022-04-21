@@ -11,3 +11,8 @@
     font-size: 18px;
     line-height: 1.5;
 }
+
+::selection {
+    background: rgb(68, 43, 114);
+    color: rgb(252, 255, 236);
+}
