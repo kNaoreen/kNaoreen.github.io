@@ -87,7 +87,7 @@
     - An Android app for roommates to manage shared chores, expenses, and communication
     - Team of 4
   tools:
-    - ZML
+    - XML
     - Java
     - Android Studio
     - Butterknife
