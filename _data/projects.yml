@@ -1,5 +1,21 @@
+- name: "WordleDSL"
+  subtitle: CPSC 410 Course Project (in progress)
+  thumbnail: "none"
+  descriptions:
+    - A DSL that allows programmers to write their own Wordle clones
+    - Team of 5
+  tools:
+    - ANTLR
+    - Java
+    - TypeScript
+    - JavaScript
+    - CSS
+    - HTML
+  contributions:
+    - Todo
+
 - name: The Dollhouse
-  subtitle: CPSC 427 Course Project
+  subtitle: CPSC 427 Course Project (2021)
   thumbnail: assets/images/theDollhouse1.png
   descriptions:
     - A story-based top-down RPG. You wake up as a doll in a dollhouse and must find a way to escape.
@@ -18,7 +34,7 @@
     - I also composed and produced the two soundtrack pieces
     - As the only team member with both a Windows and Linux machine, I independently handled the testing and debugging of Linux-related issues in our code
 - name: RateMyProfessors Prototype
-  subtitle: CPSC 344 Course Project
+  subtitle: CPSC 344 Course Project (2021)
   thumbnail: assets/images/ratemyprof1.png
   descriptions:
     - A series of design prototypes developed as an improvement to the existing RateMyProfessors website
@@ -33,10 +49,10 @@
     - We addressed one usability issue (the lack of a native comparison feature) by creating two lo-fi prototypes in Google Slides and assessing them via cognitive walkthroughs
     - We iterated on our design to produce a medium fidelity prototype with HTML, JavaScript, and CSS. We tested the prototype with user observation and questionnaire.
 - name: Tweetbook
-  subtitle: CPSC 304 Course Project
+  subtitle: CPSC 304 Course Project (2021)
   thumbnail: assets/images/tweetbook1.png
   descriptions:
-    - A mock social media application created for a databases course.
+    - A mock social media application created for a databases course
     - Team of 3
   tools:
     - React
@@ -48,3 +64,57 @@
     - Wrote SQL scripts to query and modify database
     - Wrote backend API in Express that front end can call to retrieve the results of different database queries
     - Wrote front end of application that allows userss to test different database operations
+
+- name: "Listen Later"
+  subtitle: For workplace hackathon (2020)
+  thumbnail: "none"
+  descriptions:
+    - A slack bot that receives album recommendations sent to the company's music recommendations channel, stores them in a database, and displays them on a website
+  tools:
+    - Heroku
+    - Node.js
+    - Ember.js
+    - CSS
+    - Spotify API
+    - PostgreSQL
+  contributions:
+    - Todo
+
+- name: "Roommate Chore Manager"
+  subtitle: For cmd-f (24-hour hackathon, 2019)
+  thumbnail: "none"
+  descriptions:
+    - An Android app for roommates to manage shared chores, expenses, and communication
+    - Team of 4
+  tools:
+    - ZML
+    - Java
+    - Android Studio
+    - Butterknife
+  contributions:
+    - Todo
+
+- name: "Image Recognition App"
+  subtitle: Local Hack Day App (2018)
+  thumbnail: "none"
+  descriptions:
+    - An Android app that allows visually impaired users to take a picture of an object near them and hear what type of object it is
+    - Team of 3
+  tools:
+    - XML
+    - Java
+    - AndroidStudio
+    - Azure API
+  contributions:
+    - Todo
+
+- name: "Recipes App"
+  subtitle: CPSC 210 Course Project (2018)
+  thumbnail: "none"
+  descriptions:
+    - A simple GUI application for entering and viewing recipes
+  tools:
+    - JavaFX
+    - Java
+  contributions:
+    - Todo

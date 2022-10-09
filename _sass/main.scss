@@ -28,6 +28,10 @@ html, body {
     height: min-content;
 }
 
+.spriteBox--hidden {
+    visibility: hidden;
+}
+
 .dialogueBoxAndButtonsContainer {
     display: flex;
     flex-direction: column;
@@ -49,7 +53,7 @@ html, body {
     font-size: 25px;
 }
 
-.literalDialogueBox__nextButton {
+.optionButton {
     padding: 10px 15px;
     cursor: pointer;
     text-align: center;
@@ -65,11 +69,11 @@ html, body {
     font-size: 20px;
 }
 
-.literalDialogueBox__nextButton:hover {
+.optionButton:hover {
     background-color: #735aa1;
 }
 
-.literalDialogueBox__nextButton:hover {
+.optionButton:hover {
   background-color: #9075c2;
   box-shadow: 0 5px rgb(214, 167, 213);
   transform: translateY(4px);
@@ -79,7 +83,7 @@ html, body {
     display: none;
 }
 
-.optionButtons--visible {
+.optionButtons {
     display: flex;
     flex-direction: column;
     gap: 20px;

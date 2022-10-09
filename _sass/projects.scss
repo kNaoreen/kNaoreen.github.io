@@ -28,18 +28,27 @@
 .projectCard--Header {
     h1 {
         font-size: 28px;
+        color: rgb(210, 246, 255);
+        text-align: center;
     }
-    padding-left: 10px;
-    padding-right: 10px;
+    p {
+        text-align: center;
+        color: rgb(202, 214, 247);
+    }
+    background-color: rgb(68, 59, 102);
+    border-top-left-radius: 12px;;
+    border-top-right-radius: 12px;
 }
 
 .projectCard--toolsList ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-flow: space-evenly;
     list-style-type: none;
-    align-self: flex-start;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 5px;
+    align-self: center;
     padding: 0;
 }
 
@@ -48,10 +57,12 @@
 }
 
 .toolTag {
-    padding: 5px;
+    padding: 8px;
     margin: 2px;
-    background-color:rgb(68, 59, 102);
-    color:rgb(238, 240, 209);
+    background-color:#7955a7;
+    box-shadow: 0 5px rgb(214, 167, 213);
+    color: #fff;
+    border-radius: 12px;
 }
 
 .projectCard--ProjectThumbnail img{
@@ -70,4 +81,13 @@
 
 .projectCard:hover {
     box-shadow: 0 8px 16px 0 rgba(98, 40, 131, 0.342);
+}
+
+.projectCard--Description ul{
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.projectCard--Description li {
+    margin-bottom: 10px;
 }

@@ -11,15 +11,17 @@ permalink: /projects.html
             <h1>{{project.name}}</h1>
             <p>{{project.subtitle}}</p>
         </div>
+        {% if project.thumbnail != "none" %}
+        <div class="projectCard--ProjectThumbnail">
+            <img src={{project.thumbnail}}>
+        </div>
+        {% endif %}
         <div class="projectCard--toolsList">
             <ul>
                 {% for tool in project.tools %}
                 <li><div class="toolTag">{{tool}}</div></li>
                 {% endfor %}
             </ul>
-        </div>
-        <div class="projectCard--ProjectThumbnail">
-            <img src={{project.thumbnail}}>
         </div>
         <div class="projectCard--Description">
             <ul>

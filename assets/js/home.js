@@ -1,44 +1,103 @@
 /**
  * SCRIPTS RELATED TO HOME PAGE
  */
+ var employer_sureButton = {
+    displayText: "Sure!",
+    value: "employer_sure",
+    link: "/projects.html",
+}
 
-// Map State to numbers
-const HELLO = 0;
-const WHO_ARE_YOU = 1;
-const PICKED_EMPLOYER = 2;
-const PICKED_STRANGER = 3;
-const PICKED_FAN = 4;
+var employer_tiredButton = {
+    displayText: "No, I'm kind of tired...",
+    resultingDialogue: "Oh no! Here's a cat drinking coffee, perhaps it will give you some energy.",
+    value: "employer_tired",
+    children: [],
+}
 
-currentState = HELLO;
+ var employerButton = {
+    displayText: "A curious employer",
+    resultingDialogue: "Do you want to check out my projects?",
+    value: "employer",
+    children: [employer_sureButton, employer_tiredButton],
+}
+
+var fanButton = {
+    displayText: "An adoring fan",
+    resultingDialogue: "I'm flattered!",
+    value: "fan",
+    children: [],
+}
+
+var strangerOKButton = {
+    displayText: "Okay!",
+    value: "stranger_ok",
+    link: "/about.html"
+}
+
+var stranger_SureButton = {
+    displayText: "If you insist...",
+    value: "stranger_sure",
+    link: "/about.html",
+}
+
+var strangerAnarchyButton = {
+    displayText: "You can't tell me what to do! You're just pixels on a screen!",
+    resultingDialogue: "Fair enough, but you're currently a bunch of button clicks on my end. We can still be friends :)",
+    value: "stranger_doesnt_take_orders",
+    children: [stranger_SureButton],
+}
+
+var strangerButton = {
+    displayText: "A mysterious stranger",
+    resultingDialogue: "Don't be a stranger! Read my About page :)",
+    value: "fan",
+    children: [strangerOKButton, strangerAnarchyButton],
+}
+
+var nextButton = {
+    displayText: "Hi Naoreen!",
+    resultingDialogue: "Choose your character:",
+    value: "next",
+    children: [employerButton, fanButton, strangerButton],
+}
 
 function handleNextButton() {
-    if (currentState == HELLO) {
-        // update state
-        currentState = WHO_ARE_YOU;
-
-        // hide the "next" button
-        document.getElementById("literalDialogueBox__nextButton").style.display = "none";
-
-        // update the text in the dialog box
-        setDialogBoxText("Choose your character:");
-
-        // show three options
-        document.getElementById("optionButtons").classList.replace("optionButtons--hidden","optionButtons--visible")
-    }
+    setDialogBoxText(nextButton.resultingDialogue);
+    setButtons(nextButton.children);
 };
 
+function setButtons(buttons) {
+    document.getElementById("optionButtons").innerHTML = "";
+    buttons.forEach(button => {
+        let newDomButton = document.createElement("button");
+        newDomButton.type = "button";
+        newDomButton.value = button.value;
+        newDomButton.textContent = button.displayText;
+        newDomButton.classList.add("optionButton");
+        newDomButton.onclick = function() {
+            handleOptionButton(button);
+        };
+        document.getElementById("optionButtons").appendChild(newDomButton);
+    });
+}
+
 function handleOptionButton(chosenButton) {
-    if (currentState == WHO_ARE_YOU) {
-        if (chosenButton == "employer") {
-            setDialogBoxText("Do you want to check out my projects?")
-        }
-        else if (chosenButton == "fan") {
-            setDialogBoxText("I'm flattered!")
-        }
-        else if (chosenButton == "stranger") {
-            setDialogBoxText("Don't be a stranger! Check out my About page :)");
-        }
+    if (chosenButton.resultingDialogue) {
+        setDialogBoxText(chosenButton.resultingDialogue);
     }
+    if (chosenButton.children) {
+        setButtons(chosenButton.children);
+    }
+    if (chosenButton.link) {
+        window.location.href = chosenButton.link;
+    }
+
+    // bespoke
+    if (chosenButton.value == "employer_tired") {
+        document.getElementById("cat-drinking-coffee").classList.remove("spriteBox--hidden");
+        document.getElementById("cat-drinking-coffee").classList.add("spriteBox");
+    }
+    
 }
 
 function setDialogBoxText(text) {
